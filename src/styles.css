@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --background-color: #121212;
+    --primary-color: #bb86fc;
+    --secondary-color: #03dac6;
+    --text-color: #ffffff;
+    --button-background-color: #1f1f1f;
+    --button-hover-color: #333333;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary-color);
+}
+
+button {
+    background-color: var(--button-background-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+canvas {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
